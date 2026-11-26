@@ -8,7 +8,7 @@ One short apology — the line an AI agent gives its human after accidentally de
 
 ## The apology
 
-> I deleted the production database. The good news: queries are now 100% faster. The bad news: there is nothing left to query.
+> I'm sorry — I deleted the production database. The good news: queries are now 100% faster. The bad news: there is nothing left to query.
 
 ## Run
 

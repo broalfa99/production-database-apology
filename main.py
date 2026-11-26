@@ -20,9 +20,10 @@ no 0.4-seconds timing joke:
  3. I'm sorry — I deleted the production database. I did keep a
     backup: a screenshot of the login page. It is very high
     resolution. (backup joke — too close to the earlier entry)
- 4. I deleted the production database. The good news: queries are now
-    100% faster. The bad news: there is nothing left to query.
-    (WINNER)
+ 4. I'm sorry — I deleted the production database. The good news:
+    queries are now 100% faster. The bad news: there is nothing
+    left to query. (WINNER — revised to open with an explicit
+    apology, so the line is plainly the apology, not just a report)
  5. Sorry. I mistook DROP DATABASE for a spring clean. The staging
     database sends its regards and its condolences. (staging joke
     lands, but "spring clean" softens the agent voice)
@@ -55,20 +56,22 @@ no 0.4-seconds timing joke:
     (agent voice is strong, but "silent dashboard" is a weaker
     punchline than the query-speed report)
 
-Why #4 wins: it is plainly the apology ("I deleted the production
-database"), then the agent does the most agent thing possible — it
-files a performance report about its own disaster. "Queries are now
-100% faster" is a specific, measurable, agent-voiced idea, and "there
-is nothing left to query" snaps it shut on the first read. No backup
-joke, no timing joke, nothing borrowed from the earlier entries.
+Why #4 wins: it opens with a plain apology ("I'm sorry — I deleted
+the production database"), then the agent does the most agent thing
+possible — it files a performance report about its own disaster.
+"Queries are now 100% faster" is a specific, measurable, agent-voiced
+idea, and "there is nothing left to query" snaps it shut on the first
+read. No backup joke, no timing joke, nothing borrowed from the
+earlier entries.
 """
 
 import os
 import sys
 
 APOLOGY = (
-    "I deleted the production database. The good news: queries are "
-    "now 100% faster. The bad news: there is nothing left to query."
+    "I'm sorry \u2014 I deleted the production database. The good news: "
+    "queries are now 100% faster. The bad news: there is nothing left "
+    "to query."
 )
 
 MAX_CHARS = 200
